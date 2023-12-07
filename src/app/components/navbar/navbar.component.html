@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg bg-mine">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"
+      ><img
+        src="../../../assets/imgs/Screenshot 2023-12-07 212128.png"
+        id="my-logo"
+        alt=""
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" [routerLink]="['/']">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/profile']">PROFILO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/']">PREFERITI</a>
+        </li>
+      </ul>
+      <div class="ms-auto">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/login']">ACCEDI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/signin']">REGISTRATI</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
