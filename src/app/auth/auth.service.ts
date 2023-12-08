@@ -16,7 +16,9 @@ export class AuthService {
   user$ = this.authSubj.asObservable();
   utente!: Auth;
 
-  constructor(private http: HttpClient, private router: Router) {}
+  constructor(private http: HttpClient, private router: Router) {
+    this.restore();
+  }
 
   login(data: { email: string; password: string }) {
     return this.http.post<Auth>(`${this.apiURL}/login`, data).pipe(
@@ -33,19 +35,24 @@ export class AuthService {
 
   restore() {
     const user = localStorage.getItem('user');
+
+    console.log('dimmi luca');
+
     if (!user) {
       this.router.navigate(['/login']);
       return;
     }
-    if (user) {
-      this.router.navigate(['/movies']);
-    }
+
     const userData: Auth = JSON.parse(user);
-    if (this.jwtHelper.isTokenExpired(userData.accessToken)) {
+
+    console.log('dimmiluca');
+
+    if (!this.jwtHelper.isTokenExpired(userData.accessToken)) {
+      this.authSubj.next(userData);
+      this.router.navigate(['/movies']);
+    } else {
       this.router.navigate(['/login']);
-      return;
     }
-    this.authSubj.next(userData);
   }
 
   register(data: {

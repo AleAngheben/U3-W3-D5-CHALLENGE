@@ -27,6 +27,20 @@
       "nome": "otman",
       "cognome": "karim",
       "id": 5
+    },
+    {
+      "email": "beppe@beppe.it",
+      "password": "$2a$10$QWRssRtVCi0pW8ecmTiG8u1gCjbXNSiFPiy8c0tn/ABs5eM93UU9W",
+      "nome": "beppe",
+      "cognome": "beppino",
+      "id": 6
+    },
+    {
+      "email": "bertucc@io.com",
+      "password": "$2a$10$zV76dahMKhZPuJaxD.soIOjqTS/7SCZguNVPVZM4xnhNDjL.u8S36",
+      "nome": "Antonio ",
+      "cognome": "Bertuccio",
+      "id": 7
     }
   ],
   "favorites": [

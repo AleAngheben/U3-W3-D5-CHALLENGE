@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,600;1,8..144,400;1,8..144,500&family=Roboto:wght@300;400;500;700&family=Spectral:wght@400;600&display=swap");
+:host {
+  height: calc(100vh - 5rem);
+  background: {
+    image: url("https://plus.unsplash.com/premium_photo-1667425092311-80658bb0c05f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); // Sostituisci con il percorso dell'immagine desiderata
+    size: cover;
+    color: rgba(0, 0, 0, 0);
+  }
+  display: block;
+  overflow-y: scroll;
+}
+
+.bg-mine {
+  background-color: #d4bfa17e;
+  text-wrap: nowrap;
+  width: 600px;
+  padding: 2rem 1rem;
+  backdrop-filter: blur(15px);
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Bungee Spice", sans-serif;
+}

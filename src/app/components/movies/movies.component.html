@@ -1,1 +1,22 @@
-<p>movies works!</p>
+<h1 class="text-center pt-5 mb-5">I FILM PIU' POPOLARI !</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-3" *ngFor="let movie of movies">
+      <div class="card">
+        <img
+          src="http://image.tmdb.org/t/p/w500{{ movie.poster_path }}"
+          class="card-img-top"
+          alt="copertina {{ movie.title }}"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ movie.title }}</h5>
+          <p class="card-text">
+            {{ movie.overview }}
+          </p>
+          <a href="#" class="btn btn-danger">pref</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,19 @@
-<p>profile works!</p>
+<h1 class="text-center p-5 mb-5">IL MIO PROFILO</h1>
+
+<div *ngIf="userId">
+  <div class="container bg-mine rounded-4 mb-5">
+    <div class="mb-3 border-bottom border-black">
+      <h3>Nome :</h3>
+      <h4>{{ userName }} {{ userSurname }}</h4>
+    </div>
+
+    <div class="mb-3 border-bottom border-black">
+      <h3>Email :</h3>
+      <h4>{{ userEmail }}</h4>
+    </div>
+    <div class="mb-4 border-bottom border-black">
+      <h3>ID :</h3>
+      <h4>{{ userId }}</h4>
+    </div>
+  </div>
+</div>
