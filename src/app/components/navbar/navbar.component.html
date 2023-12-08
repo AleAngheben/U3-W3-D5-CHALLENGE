@@ -20,24 +20,51 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" [routerLink]="['/']">HOME</a>
+          <a
+            class="nav-link active"
+            [routerLink]="['/']"
+            routerLinkActive="active"
+            >HOME</a
+          >
         </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/profile']">PROFILO</a>
+        <li class="nav-item" *ngIf="utente">
+          <a
+            class="nav-link"
+            [routerLink]="['/profile']"
+            routerLinkActive="active"
+            >PROFILO</a
+          >
         </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/']">PREFERITI</a>
+        <li class="nav-item" *ngIf="utente">
+          <a
+            class="nav-link"
+            [routerLink]="['/movies']"
+            routerLinkActive="active"
+            >MOVIE</a
+          >
         </li>
       </ul>
       <div class="ms-auto">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/login']">ACCEDI</a>
+          <li class="nav-item" *ngIf="!utente">
+            <a
+              class="nav-link"
+              [routerLink]="['/login']"
+              routerLinkActive="active"
+              >ACCEDI</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/signin']">REGISTRATI</a>
+            <a class="nav-link" [routerLink]="['/signin']" *ngIf="!utente"
+              >REGISTRATI</a
+            >
           </li>
         </ul>
+      </div>
+      <div>
+        <button class="btn btn-danger" *ngIf="utente" (click)="logout()">
+          Esci
+        </button>
       </div>
     </div>
   </div>

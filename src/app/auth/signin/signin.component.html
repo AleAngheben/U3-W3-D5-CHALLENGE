@@ -1,0 +1,30 @@
+<div class="container bg-mine rounded-4 mb-5">
+  <form class="fw-bold p-3" #form="ngForm" (ngSubmit)="registra(form)">
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome</label>
+      <input type="text" name="nome" class="form-control" required ngModel />
+    </div>
+    <div class="mb-3">
+      <label for="cognome" class="form-label">Cognome</label>
+      <input type="text" name="cognome" class="form-control" required ngModel />
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email </label>
+      <input type="email" name="email" class="form-control" required ngModel />
+    </div>
+    <div class="mb-4">
+      <label for="password" class="form-label">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        name="password"
+        required
+        ngModel
+      />
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="form.invalid">
+      Registrati
+    </button>
+  </form>
+</div>

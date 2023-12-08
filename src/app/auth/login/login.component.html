@@ -1,0 +1,24 @@
+<div class="container bg-mine rounded-4 mb-5">
+  <form class="fw-bold p-3" #form="ngForm" (ngSubmit)="accedi(form)">
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" name="email" class="form-control" required ngModel />
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-4">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="exampleInputPassword1"
+        name="password"
+        required
+        ngModel
+      />
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="form.invalid">
+      Accedi
+    </button>
+  </form>
+</div>
