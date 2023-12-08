@@ -41,6 +41,13 @@
       "nome": "Antonio ",
       "cognome": "Bertuccio",
       "id": 7
+    },
+    {
+      "email": "nielson@ielson.it",
+      "password": "$2a$10$yFcoWIrIZK6x/Jx5vfwiveXGJb9/zXcUHRapRPFjGU1TUaDvxs5ja",
+      "nome": "Daniele",
+      "cognome": "Nielson",
+      "id": 8
     }
   ],
   "favorites": [
