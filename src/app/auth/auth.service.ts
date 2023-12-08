@@ -25,7 +25,7 @@ export class AuthService {
         this.utente = loggato;
         localStorage.setItem('user', JSON.stringify(loggato));
         alert('Login effettuato');
-        this.router.navigate(['/']);
+        this.router.navigate(['/movies']);
       }),
       catchError(this.errors)
     );

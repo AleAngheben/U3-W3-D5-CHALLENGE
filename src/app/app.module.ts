@@ -12,7 +12,7 @@ import { SigninComponent } from './auth/signin/signin.component';
 import { HomeComponent } from './components/home/home.component';
 import { MoviesComponent } from './components/movies/movies.component';
 import { ProfileComponent } from './components/profile/profile.component';
-// import { AuthGuard } from './auth/auth.guard';
+import { AuthGuard } from './auth/auth.guard';
 
 const routes: Route[] = [
   {
@@ -30,12 +30,12 @@ const routes: Route[] = [
   {
     path: 'movies',
     component: MoviesComponent,
-    // canActivate: [AuthGuard],
+    canActivate: [AuthGuard],
   },
   {
     path: 'profile',
     component: ProfileComponent,
-    // canActivate: [AuthGuard],
+    canActivate: [AuthGuard],
   },
 ];
 @NgModule({

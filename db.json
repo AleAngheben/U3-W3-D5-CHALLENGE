@@ -13,6 +13,20 @@
       "nome": "Cosmin",
       "cognome": "Coder",
       "id": 3
+    },
+    {
+      "email": "aleangheben@hotmail.com",
+      "password": "$2a$10$07KHgnujcp1zLyLp6WJCBOAufFNSn7WqYZHiFAgA.f8zDEiPALXeK",
+      "nome": "Alessandro",
+      "cognome": "Angheben",
+      "id": 4
+    },
+    {
+      "email": "ottt@rolli.com",
+      "password": "$2a$10$yY8QTnr0qgeFuVv69lDkzuFJJ3p3A9E9ecssGlLSd7xrIgBUcn4yO",
+      "nome": "otman",
+      "cognome": "karim",
+      "id": 5
     }
   ],
   "favorites": [
