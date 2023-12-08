@@ -1,19 +1,40 @@
 <h1 class="text-center p-5 mb-5">IL MIO PROFILO</h1>
 
-<div *ngIf="userId">
-  <div class="container bg-mine rounded-4 mb-5">
-    <div class="mb-3 border-bottom border-black">
-      <h3>Nome :</h3>
-      <h4>{{ userName }} {{ userSurname }}</h4>
-    </div>
+<div class="d-flex justify-content-center">
+  <div *ngIf="userId">
+    <div class="container bg-mine rounded-4 mb-5">
+      <div class="mb-3 border-bottom border-black">
+        <h3>Nome</h3>
+        <h4>{{ userName }} {{ userSurname }}</h4>
+      </div>
 
-    <div class="mb-3 border-bottom border-black">
-      <h3>Email :</h3>
-      <h4>{{ userEmail }}</h4>
+      <div class="mb-3 border-bottom border-black">
+        <h3>Email</h3>
+        <h4>{{ userEmail }}</h4>
+      </div>
+      <div class="mb-4 border-bottom border-black">
+        <h3>ID</h3>
+        <h4>{{ userId }}</h4>
+      </div>
     </div>
-    <div class="mb-4 border-bottom border-black">
-      <h3>ID :</h3>
-      <h4>{{ userId }}</h4>
+  </div>
+
+  <div class="d-block ms-5">
+    <div class="pipoca-wrapper">
+      <div class="pipoca">
+        <div class="cabeca">
+          <div class="parte p1"></div>
+          <div class="parte p2"></div>
+          <div class="parte p3"></div>
+          <div class="parte p4"></div>
+          <div class="olho esquerdo"></div>
+          <div class="olho direito"></div>
+          <div class="boca"></div>
+        </div>
+        <div class="corpo">
+          <div class="listra"></div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -16,7 +16,11 @@
           </p>
         </div>
         <div class="ms-2 mb-2">
-          <a href="#" class="btn btn-warning"
+          <a
+            href="#"
+            class="btn btn-warning"
+            (click)="addoRem(movie.id)"
+            [ngStyle]="{ color: isFavorite(movie.id) ? 'red' : 'white' }"
             ><i class="bi bi-suit-heart-fill"></i
           ></a>
         </div>

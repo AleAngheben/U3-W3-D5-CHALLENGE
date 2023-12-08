@@ -48,6 +48,41 @@
       "nome": "Daniele",
       "cognome": "Nielson",
       "id": 8
+    },
+    {
+      "email": "lara@lara.it",
+      "password": "$2a$10$QayRxcGtyMNE2c4TBsDhW.eQhO9HU6LysmVbpFeJ1b4stQLjwUSg6",
+      "nome": "laraa",
+      "cognome": "sium",
+      "id": 9
+    },
+    {
+      "email": "andre@andre.it",
+      "password": "$2a$10$s5Nosp4S6XJm8DwItZRvM.4T7LYTWFqzQa5fb/hujcMTJhaFTTMB2",
+      "nome": "Andreas",
+      "cognome": "DU brazil",
+      "id": 10
+    },
+    {
+      "email": "mario@mario.it",
+      "password": "$2a$10$zIhsG/tYnx/fjgvdOba6wOS.bovGDQK5.AiMc4f8C4aOt24voBGRW",
+      "nome": "mario",
+      "cognome": "mariolini",
+      "id": 11
+    },
+    {
+      "email": "rob@rob.it",
+      "password": "$2a$10$K9NDEgw/zo5DTyAa.vNuIuGb3JrzVqRhcZEUNBOWUqa07Q8qppj5O",
+      "nome": "roberto",
+      "cognome": "robertino",
+      "id": 12
+    },
+    {
+      "email": "paolo@pa.it",
+      "password": "$2a$10$uMv5jQdLImhUapCw6oaCYuptHGoT2TBmhPs.jsq0PJzsOB5vfQv8O",
+      "nome": "paola",
+      "cognome": "paolini",
+      "id": 13
     }
   ],
   "favorites": [
@@ -60,6 +95,26 @@
       "userId": 2,
       "movieId": 632357,
       "id": 8
+    },
+    {
+      "movieId": 460465,
+      "userId": 12,
+      "id": 13
+    },
+    {
+      "movieId": 460465,
+      "userId": 9,
+      "id": 15
+    },
+    {
+      "movieId": 567189,
+      "userId": 9,
+      "id": 16
+    },
+    {
+      "movieId": 578701,
+      "userId": 9,
+      "id": 17
     }
   ],
   "movies-popular": [

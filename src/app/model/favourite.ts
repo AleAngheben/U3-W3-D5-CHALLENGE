@@ -1,5 +1,5 @@
-export interface Favourite {
+export interface Favorite {
   userId: number;
-  filmId: number;
-  filmTitle: string;
+  movieId: number;
+  id?: number;
 }
