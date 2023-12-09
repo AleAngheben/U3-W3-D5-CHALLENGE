@@ -1,40 +1,27 @@
-<h1 class="text-center p-5 mb-5">IL MIO PROFILO</h1>
+<h1 class="text-center pt-5 pb-2">IL MIO PROFILO</h1>
 
-<div class="d-flex justify-content-center">
-  <div *ngIf="userId">
-    <div class="container bg-mine rounded-4 mb-5">
-      <div class="mb-3 border-bottom border-black">
-        <h3>Nome</h3>
-        <h4>{{ userName }} {{ userSurname }}</h4>
+<div *ngIf="userId">
+  <div class="d-flex justify-content-between bg-mine rounded-4 mb-5">
+    <div class="d-flex flex-column justify-content-center ps-3">
+      <div class="mb-3 border-mine">
+        <h4>NOME</h4>
+        <h5>{{ userName }} {{ userSurname }}</h5>
       </div>
 
-      <div class="mb-3 border-bottom border-black">
-        <h3>Email</h3>
-        <h4>{{ userEmail }}</h4>
+      <div class="mb-3 border-mine">
+        <h4>EMAIL</h4>
+        <h5>{{ userEmail }}</h5>
       </div>
-      <div class="mb-4 border-bottom border-black">
-        <h3>ID</h3>
-        <h4>{{ userId }}</h4>
+      <div class="border-mine">
+        <h4>ID</h4>
+        <h5>{{ userId }}</h5>
       </div>
     </div>
-  </div>
-
-  <div class="d-block ms-5">
-    <div class="pipoca-wrapper">
-      <div class="pipoca">
-        <div class="cabeca">
-          <div class="parte p1"></div>
-          <div class="parte p2"></div>
-          <div class="parte p3"></div>
-          <div class="parte p4"></div>
-          <div class="olho esquerdo"></div>
-          <div class="olho direito"></div>
-          <div class="boca"></div>
-        </div>
-        <div class="corpo">
-          <div class="listra"></div>
-        </div>
-      </div>
+    <div
+      id="img-prof"
+      class="w-50 d-flex align-items-center justify-content-center"
+    >
+      <img src="{{ userImageProf }}" alt="" class="rounded-circle" />
     </div>
   </div>
 </div>

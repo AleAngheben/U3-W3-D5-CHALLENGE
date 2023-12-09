@@ -5,84 +5,133 @@
       "password": "$2a$10$ZLY63quWnMVo0lO951uFdOJRfUxeo8U6YJ/Cue06Vgp4Ad8S/CjaC",
       "nome": "Dario",
       "cognome": "Del Giudice",
-      "id": 2
+      "id": 2,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "coder@cosmin.it",
       "password": "$2a$10$HH3M46XokJ47hIcscFfdQuCL1k2X4w5lFsBygqh8Oq8ulFrVwwtpO",
       "nome": "Cosmin",
       "cognome": "Coder",
-      "id": 3
+      "id": 3,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "aleangheben@hotmail.com",
       "password": "$2a$10$07KHgnujcp1zLyLp6WJCBOAufFNSn7WqYZHiFAgA.f8zDEiPALXeK",
       "nome": "Alessandro",
       "cognome": "Angheben",
-      "id": 4
+      "id": 4,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "ottt@rolli.com",
       "password": "$2a$10$yY8QTnr0qgeFuVv69lDkzuFJJ3p3A9E9ecssGlLSd7xrIgBUcn4yO",
       "nome": "otman",
       "cognome": "karim",
-      "id": 5
+      "id": 5,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "beppe@beppe.it",
       "password": "$2a$10$QWRssRtVCi0pW8ecmTiG8u1gCjbXNSiFPiy8c0tn/ABs5eM93UU9W",
       "nome": "beppe",
       "cognome": "beppino",
-      "id": 6
+      "id": 6,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "bertucc@io.com",
       "password": "$2a$10$zV76dahMKhZPuJaxD.soIOjqTS/7SCZguNVPVZM4xnhNDjL.u8S36",
       "nome": "Antonio ",
       "cognome": "Bertuccio",
-      "id": 7
+      "id": 7,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "nielson@ielson.it",
       "password": "$2a$10$yFcoWIrIZK6x/Jx5vfwiveXGJb9/zXcUHRapRPFjGU1TUaDvxs5ja",
       "nome": "Daniele",
       "cognome": "Nielson",
-      "id": 8
+      "id": 8,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "lara@lara.it",
       "password": "$2a$10$QayRxcGtyMNE2c4TBsDhW.eQhO9HU6LysmVbpFeJ1b4stQLjwUSg6",
       "nome": "laraa",
       "cognome": "sium",
-      "id": 9
+      "id": 9,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "andre@andre.it",
       "password": "$2a$10$s5Nosp4S6XJm8DwItZRvM.4T7LYTWFqzQa5fb/hujcMTJhaFTTMB2",
       "nome": "Andreas",
       "cognome": "DU brazil",
-      "id": 10
+      "id": 10,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "mario@mario.it",
       "password": "$2a$10$zIhsG/tYnx/fjgvdOba6wOS.bovGDQK5.AiMc4f8C4aOt24voBGRW",
       "nome": "mario",
       "cognome": "mariolini",
-      "id": 11
+      "id": 11,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "rob@rob.it",
       "password": "$2a$10$K9NDEgw/zo5DTyAa.vNuIuGb3JrzVqRhcZEUNBOWUqa07Q8qppj5O",
       "nome": "roberto",
       "cognome": "robertino",
-      "id": 12
+      "id": 12,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "email": "paolo@pa.it",
       "password": "$2a$10$uMv5jQdLImhUapCw6oaCYuptHGoT2TBmhPs.jsq0PJzsOB5vfQv8O",
       "nome": "paola",
       "cognome": "paolini",
-      "id": 13
+      "id": 13,
+      "imageProf": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "email": "alea@ale.com",
+      "password": "$2a$10$sht0EpjaqgdRMrFJ5sET3eNVAXs2w8KMDnaIGvVHj8ug3QCXCv1gC",
+      "nome": "Alessandro",
+      "cognome": "Angheben",
+      "id": 14
+    },
+    {
+      "email": "asa@asa.it",
+      "password": "$2a$10$ydt619Phb8Y/5t0pfKimpucJOkSDr7p0jCpmJVjDXI3hUkkUuYcfO",
+      "nome": "asasas",
+      "cognome": "asasas",
+      "id": 15
+    },
+    {
+      "email": "pino@pino.it",
+      "password": "$2a$10$7BkF4/t55CMTAmNfmFCTA.143CKQ2FxtFEkOXyGAYWWHSMI0vMOhO",
+      "nome": "pino",
+      "cognome": "daniele",
+      "id": 16
+    },
+    {
+      "email": "goat@tony.it",
+      "password": "$2a$10$hzc2e.d8elB2y.B8I6jpMOvE2fIKK.HxXyIYpFGPc2CGUZwBqrtcy",
+      "nome": "Tony",
+      "cognome": "Goat",
+      "imageProf": "https://plus.unsplash.com/premium_photo-1676901712447-4395959ac6cf?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 17
+    },
+    {
+      "email": "giuse@beppe.it",
+      "password": "$2a$10$8ilUlvdWEr36zLWA9Byx6uiRsTSBaRFrohoMibXjEfCZWcHOz5zEy",
+      "nome": "Giuseppe",
+      "cognome": "Barresi",
+      "imageProf": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 18
     }
   ],
   "favorites": [
@@ -115,6 +164,36 @@
       "movieId": 578701,
       "userId": 9,
       "id": 17
+    },
+    {
+      "movieId": 567189,
+      "userId": 13,
+      "id": 18
+    },
+    {
+      "movieId": 578701,
+      "userId": 13,
+      "id": 19
+    },
+    {
+      "movieId": 717192,
+      "userId": 9,
+      "id": 20
+    },
+    {
+      "movieId": 460465,
+      "userId": 10,
+      "id": 21
+    },
+    {
+      "movieId": 567189,
+      "userId": 10,
+      "id": 22
+    },
+    {
+      "movieId": 578701,
+      "userId": 2,
+      "id": 23
     }
   ],
   "movies-popular": [

@@ -12,18 +12,24 @@
 
 .card {
   width: 300px;
-  height: 700px;
+  min-height: 674px;
   margin-bottom: 1rem;
 }
 
 .card img {
-  height: 500px;
+  height: 450px;
   object-fit: cover;
+}
+
+.card h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-text {
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }

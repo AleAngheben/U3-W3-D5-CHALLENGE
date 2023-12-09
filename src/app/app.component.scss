@@ -1,0 +1,12 @@
+:host {
+  height: 100vh;
+  background: {
+    image: url("https://img.freepik.com/free-psd/3d-cinema-blank-banner-background_23-2150822408.jpg?w=1380&t=st=1702078561~exp=1702079161~hmac=49a4f2669550e3d684cc1543261297211ada2b9dcacc2ce26e04a230a90923b6"); // Sostituisci con il percorso dell'immagine desiderata
+    size: cover;
+
+    color: rgba(0, 0, 0, 0);
+  }
+  width: 100%;
+  z-index: -2;
+  display: block;
+}

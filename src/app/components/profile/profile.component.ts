@@ -10,6 +10,7 @@ export class ProfileComponent implements OnInit {
   userName: string | null = null;
   userSurname: string | null = null;
   userEmail: string | null = null;
+  userImageProf: string | null = null;
   constructor() {}
 
   ngOnInit(): void {
@@ -23,6 +24,7 @@ export class ProfileComponent implements OnInit {
       this.userName = actUser.nome;
       this.userSurname = actUser.cognome;
       this.userEmail = actUser.email;
+      this.userImageProf = actUser.imageProf;
     }
   }
 }

@@ -5,5 +5,6 @@ export interface Auth {
     email: string;
     nome: string;
     cognome: string;
+    imageProf: string;
   };
 }

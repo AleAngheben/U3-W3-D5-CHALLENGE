@@ -60,6 +60,7 @@ export class AuthService {
     cognome: string;
     email: string;
     password: string;
+    imageProf: string;
   }) {
     return this.http.post(`${this.apiURL}/register`, data).pipe(
       tap(() => {
