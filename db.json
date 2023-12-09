@@ -180,6 +180,22 @@
       "cognome": "Free Style",
       "imageProf": "https://images.unsplash.com/photo-1479090793912-eb9929f4fdb2?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "id": 24
+    },
+    {
+      "email": "simo@gmail.com",
+      "password": "$2a$10$n5fN4XrF8m/NjWZ8b9Iy2.cz1tcwuIYl/B.hGXrTAbzALPolRnRWG",
+      "nome": "Saimon",
+      "cognome": "du brazil",
+      "imageProf": "https://images.unsplash.com/photo-1517299321609-52687d1bc55a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 25
+    },
+    {
+      "email": "sium@chiara.it",
+      "password": "$2a$10$NrWq7RM4NtdLUN9hIzOyt.6kDOAm9TmY5fiYPBFCMloNFsFoYwwA2",
+      "nome": "cchiara",
+      "cognome": "sium",
+      "imageProf": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 26
     }
   ],
   "favorites": [
@@ -262,6 +278,16 @@
       "movieId": 567189,
       "userId": 21,
       "id": 27
+    },
+    {
+      "movieId": 460465,
+      "userId": 25,
+      "id": 28
+    },
+    {
+      "movieId": 578701,
+      "userId": 25,
+      "id": 29
     }
   ],
   "movies-popular": [

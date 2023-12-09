@@ -36,16 +36,12 @@ export class AuthService {
   restore() {
     const user = localStorage.getItem('user');
 
-    console.log('dimmi luca');
-
     if (!user) {
       this.router.navigate(['/login']);
       return;
     }
 
     const userData: Auth = JSON.parse(user);
-
-    console.log('dimmiluca');
 
     if (!this.jwtHelper.isTokenExpired(userData.accessToken)) {
       this.authSubj.next(userData);
